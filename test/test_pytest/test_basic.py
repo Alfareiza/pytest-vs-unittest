@@ -9,3 +9,8 @@ def test_list():
 
 def test_string():
     assert 'unitest' == 'unittest'
+
+
+def test_dict():
+    dct = {'pt': 'Português', 'es': 'Espanhol'}
+    assert dct['pt'] == 'Português'
